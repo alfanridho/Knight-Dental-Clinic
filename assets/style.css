@@ -1,0 +1,17 @@
+.carousel-item img {
+  max-width: 100%;
+  max-height: 400px;
+  margin: 0 auto;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dokter {
+  max-width: 100%;
+  max-height: 400px;
+  margin: 0 auto;
+}
