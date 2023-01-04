@@ -23,7 +23,8 @@
 .register-page {
   background-color: aqua;
 }
-<<<<<<< HEAD h1 {
+
+h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -44,7 +45,7 @@ p {
   border-style: solid;
   border-color: #ff0000 #0000ff;
 }
-=======>>>>>>>7f6ace414933f29812190d63ebc4a5d0d27168c6 .card img {
+.card img {
   transition: transform 0.5s; /* menambahkan efek transisi saat hover */
   transition: opacity 0.5s;
 }
