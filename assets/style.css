@@ -23,3 +23,19 @@
 .register-page {
   background-color: aqua;
 }
+
+.card img {
+  transition: transform 0.5s; /* menambahkan efek transisi saat hover */
+  transition: opacity 0.5s;
+}
+
+.card img:hover {
+  transform: scale(1.2); /* memperbesar ukuran gambar saat hover */
+
+  opacity: 0.5;
+}
+
+.card-img-top {
+  max-width: 400px;
+  max-height: 400px;
+}
