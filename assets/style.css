@@ -23,8 +23,28 @@
 .register-page {
   background-color: aqua;
 }
+<<<<<<< HEAD h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
-.card img {
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.card-2 {
+  border: 3px solid #000000;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #ff0000 #0000ff;
+}
+=======>>>>>>>7f6ace414933f29812190d63ebc4a5d0d27168c6 .card img {
   transition: transform 0.5s; /* menambahkan efek transisi saat hover */
   transition: opacity 0.5s;
 }
