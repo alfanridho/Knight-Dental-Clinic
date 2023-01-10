@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/plugins/fontawesome-free/css/all.min.css" />
     <link rel="shortcut icon" href="assets/pngwing.com (10).png" />
-    <title>Booking</title>
+    <title>Scaling</title>
   </head>
   <body>
     <!-- Navigation -->
@@ -39,14 +39,15 @@
                 <li><a class="dropdown-item" href="exodonsi.html">Exodonsi</a></li>
               </ul>
             </li>
+    
             <li class="nav-item">
-              <a class="nav-link active" href="booking.html">Booking</a>
+              <a class="nav-link" href="booking.html">Booking</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="testimoni.html">Testimoni</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="landingpage.html#K">Tentang Kami</a>
+              <a class="nav-link" href="#K">Tentang Kami</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -62,108 +63,23 @@
     <nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="landingpage.html">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Booking</li>
+        <li class="breadcrumb-item active" aria-current="page">Layanan</li>
       </ol>
     </nav>
 
-    <!-- Booking -->
-    <div class="container">
+    <!-- Layanan -->
+    <div class="container-fluid">
       <div class="row mt-3">
-        <div class="col-12">
-          <form>
-            <div class="form-group row">
-              <label for="Nama Pasien" class="col-4 col-form-label">Nama Pasien</label>
-              <div class="col-8">
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <div class="input-group-text">
-                      <i class="fa fa-address-card"></i>
-                    </div>
-                  </div>
-                  <input id="Nama Pasien" name="Nama Pasien" type="text" required="required" class="form-control" />
-                </div>
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="Pilih Dokter" class="col-4 col-form-label">Pilih Dokter</label>
-              <div class="col-8">
-                <select id="Pilih Dokter" name="Pilih Dokter" required="required" class="custom-select">
-                  <option value="Dr, Leona Smith">Dr, Leona Smith</option>
-                  <option value="Dr. Zein Bilqis">Dr. Zein Bilqis</option>
-                  <option value="Dr. Bob Johnson">Dr. Bob Johnson</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="Pilih Layanan" class="col-4 col-form-label">Pilih Layanan</label>
-              <div class="col-8">
-                <select id="Pilih Layanan" name="Pilih Layanan" required="required" class="custom-select">
-                  <option value="Pembersihan Karang Gigi">Pembersihan Karang Gigi</option>
-                  <option value="Bleaching (Pemutihan Gigi)">Bleaching (Pemutihan Gigi)</option>
-                  <option value="Cabut Gigi">Cabut Gigi</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="Keluhan" class="col-4 col-form-label">Keluhan</label>
-              <div class="col-8">
-                <textarea id="Keluhan" name="Keluhan" cols="40" rows="5" required="required" class="form-control"></textarea>
-              </div>
-            </div>
-            <div class="form-group row">
-              <label class="col-4">Pembayaran</label>
-              <div class="col-8">
-                <div class="custom-control custom-checkbox custom-control-inline">
-                  <input name="Pembayaran" id="Pembayaran_0" type="checkbox" class="custom-control-input" value="Cash" />
-                  <label for="Pembayaran_0" class="custom-control-label">Cash</label>
-                </div>
-                <div class="custom-control custom-checkbox custom-control-inline">
-                  <input name="Pembayaran" id="Pembayaran_1" type="checkbox" class="custom-control-input" value="Transfer" />
-                  <label for="Pembayaran_1" class="custom-control-label">Transfer</label>
-                </div>
-                <div class="custom-control custom-checkbox custom-control-inline">
-                  <input name="Pembayaran" id="Pembayaran_2" type="checkbox" class="custom-control-input" value="E-Wallet" />
-                  <label for="Pembayaran_2" class="custom-control-label">E-Wallet</label>
-                </div>
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="Umur" class="col-4 col-form-label">Tanggal Periksa</label>
-              <div class="col-8">
-                <input type="time" name="valid" id="jam" />
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="Umur" class="col-4 col-form-label">Umur</label>
-              <div class="col-8">
-                <input id="Umur" name="Umur" type="text" class="form-control" />
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="No. Hp" class="col-4 col-form-label">No. Hp</label>
-              <div class="col-8">
-                <input id="No. Hp" name="No. Hp" type="text" class="form-control" />
-              </div>
-            </div>
-            <div class="form-group row">
-              <label for="text" class="col-4 col-form-label">Email</label>
-              <div class="col-8">
-                <input id="text" name="text" type="text" class="form-control" />
-              </div>
-            </div>
-            <div class="form-group row">
-              <div class="offset-4 col-8">
-                <button name="submit" type="submit" class="btn btn-primary">Submit</button>
-                <button name="Reset" type="reset" class="btn btn-primary">Reset</button>
-              </div>
-            </div>
-          </form>
+        <div class="col-12 col-md-4">
+          <img alt="Bootstrap Image Preview" src="assets/ed.jpg" class="dokter mt-3"/>
         </div>
+        <div class="col-12 col-md-5">
+          <h2>Exodonsi</h2>
+          <article>Exodonsi adalah proses pencabutan gigi. Hal ini biasanya dilakukan jika gigi yang rusak atau terinfeksi tidak dapat diperbaiki dengan cara lain, seperti dengan perawatan kavitas atau pemasangan kapsul gigi. Exodonsi juga dapat dilakukan jika gigi tambahan yang tidak diperlukan (misalnya gigi seri) harus dibuang untuk memberikan ruang bagi gigi yang tumbuh. Proses ini biasanya dilakukan oleh dokter gigi dan dapat dilakukan dengan anestesi lokal untuk mengurangi rasa sakit.</article>
+      
       </div>
-    </div>
-
     <!-- Footer -->
-    <footer class="bg-dark py-5">
+    <footer class="bg-dark py-5 mt-5">
       <div class="container">
         <div class="row">
           <!-- bagian sosial media -->
