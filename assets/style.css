@@ -47,7 +47,7 @@ p {
 }
 .card-1 img {
   transition: transform 0.5s; /* menambahkan efek transisi saat hover */
-  transition: opacity 1.0s;
+  transition: opacity 1s;
   max-width: 100%;
   object-fit: cover;
 }
@@ -61,4 +61,3 @@ p {
   max-width: 400px;
   max-height: 400px;
 }
-
