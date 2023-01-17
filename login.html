@@ -720,17 +720,17 @@
         <div class="card-body login-card-body">
           <p class="login-box-msg">Sign in to start your session</p>
 
-          <form action="../../index3.html" method="post">
+          <form id="loginForm">
             <div class="input-group mb-3">
-              <input type="email" class="form-control" placeholder="Email" />
+              <input type="text" class="form-control" placeholder="Username" id="username" />
               <div class="input-group-append">
                 <div class="input-group-text">
-                  <span class="fas fa-envelope"></span>
+                  <span class="fas fa-user"></span>
                 </div>
               </div>
             </div>
             <div class="input-group mb-3">
-              <input type="password" class="form-control" placeholder="Password" />
+              <input type="password" class="form-control" placeholder="Password" id="password" />
               <div class="input-group-append">
                 <div class="input-group-text">
                   <span class="fas fa-lock"></span>
@@ -746,7 +746,7 @@
               </div>
               <!-- /.col -->
               <div class="col-4">
-                <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+                <button type="submit" class="btn btn-primary btn-block" onclick="loginAdmin()">Sign In</button>
               </div>
               <!-- /.col -->
             </div>
@@ -766,6 +766,24 @@
       </div>
     </div>
     <!-- /.login-box -->
+
+    <!-- js login admin -->
+    <script>
+      var form = document.getElementById("loginForm");
+
+      // menambahkan event listener pada form
+      form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        let username = document.getElementById("username").value;
+        let password = document.getElementById("password").value;
+
+        if (username == "admin" && password == "admin") {
+          window.location.href = "adminbooking.html";
+        } else {
+          alert("Username atau password salah");
+        }
+      });
+    </script>
 
     <!-- jQuery -->
     <script src="../../plugins/jquery/jquery.min.js"></script>
